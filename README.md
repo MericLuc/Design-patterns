@@ -18,6 +18,7 @@ They abstract the instantiation process in a way that is the most suitable for t
  - [**Abstract Factory**](creational-patterns/abstract-factory) [:book:](creational-patterns/abstract-factory/README.md) [:computer:](creational-patterns/abstract-factory/abstract-factory.cpp)
  - [**Builder**](creational-patterns/builder) [:book:](creational-patterns/builder/README.md) [:computer:](creational-patterns/builder/builder.cpp)
  - [**Factory Method**](creational-patterns/factory-method) [:book:](creational-patterns/factory-method/README.md) [:computer:](creational-patterns/factory-method/factory-method.cpp)
+  - [**Monostate**](creational-patterns/monostate-pattern) [:book:](creational-patterns/monostate-pattern/README.md) [:computer:](creational-patterns/monostate-pattern/monostate-pattern.cpp)
  - [**Prototype**](creational-patterns/prototype) [:book:](creational-patterns/prototype/README.md) [:computer:](creational-patterns/prototype/prototype.cpp)
  - [**Singleton**](creational-patterns/singleton) [:book:](creational-patterns/singleton/README.md) [:computer:](creational-patterns/singleton/singleton.cpp)
  
