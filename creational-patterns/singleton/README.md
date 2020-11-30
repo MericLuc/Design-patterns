@@ -27,3 +27,10 @@ There are several alternatives to the _Singleton pattern_ :
  - [**Dependency injection**](https://en.wikipedia.org/wiki/Dependency_injection)
  - [**Monostate pattern**](https://www.simplethread.com/the-monostate-pattern)
  - **Session context**
+
+# Notes
+
+Some interesting links on _why singleton pattern is evil_ :
+- [accu singleton anti-pattern article](https://accu.org/journals/overload/11/57/radford_337)
+- [scott densmore on singletons being evil](https://docs.microsoft.com/en-us/archive/blogs/scottdensmore)
+- [stack overload about singletons](https://stackoverflow.com/questions/137975/what-is-so-bad-about-singletons)
