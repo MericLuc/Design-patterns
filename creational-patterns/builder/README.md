@@ -35,6 +35,7 @@ After that, the _Director_ uses the _ConcreteBuilder_ to build a _Product_.
 
 **Cons**
  - The builder interface shall be general enough to allow the creation of Products for every type of ConcreteBuilder. That means that you can clearly define a common construction sequence for every products representation.
+ - The overall complexity of the code increases since the pattern requires creating multiple new classes.
 
 NB : The methods of the _Builder_ are empty by default (not pure virtual) - so that the _ConcreteBuilder_ can override only the operations they are interested in. 
 
