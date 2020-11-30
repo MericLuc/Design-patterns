@@ -31,13 +31,13 @@ They allow us to compose interfaces or implementations in order to obtain larger
 
 They are also very usefull to achieve new functionalities using objects compositions.
 
- - [**Adapter**](creational-patterns/adapter) [:book:](creational-patterns/adapter/README.md) [:computer:](creational-patterns/adapter/adapter.cpp)
- - [**Bridge**](creational-patterns/bridge) [:book:](creational-patterns/bridge/README.md) [:computer:](creational-patterns/bridge/bridge.cpp)
- - [**Composite**](creational-patterns/composite) [:book:](creational-patterns/composite/README.md) [:computer:](creational-patterns/composite/composite.cpp)
- - [**Decorator**](creational-patterns/decorator) [:book:](creational-patterns/decorator/README.md) [:computer:](creational-patterns/decorator/decorator.cpp)
- - [**Facade**](creational-patterns/facade) [:book:](creational-patterns/facade/README.md) [:computer:](creational-patterns/facade/facade.cpp)
- - [**Flyweight**](creational-patterns/flyweight) [:book:](creational-patterns/flyweight/README.md) [:computer:](creational-patterns/flyweight/flyweight.cpp)
- - [**Proxy**](creational-patterns/proxy) [:book:](creational-patterns/proxy/README.md) [:computer:](creational-patterns/proxy/proxy.cpp)
+ - [**Adapter**](structural-patterns/adapter) [:book:](structural-patterns/adapter/README.md) [:computer:](structural-patterns/adapter/adapter.cpp)
+ - [**Bridge**](structural-patterns/bridge) [:book:](structural-patterns/bridge/README.md) [:computer:](structural-patterns/bridge/bridge.cpp)
+ - [**Composite**](structural-patterns/composite) [:book:](structural-patterns/composite/README.md) [:computer:](structural-patterns/composite/composite.cpp)
+ - [**Decorator**](structural-patterns/decorator) [:book:](structural-patterns/decorator/README.md) [:computer:](structural-patterns/decorator/decorator.cpp)
+ - [**Facade**](structural-patterns/facade) [:book:](structural-patterns/facade/README.md) [:computer:](structural-patterns/facade/facade.cpp)
+ - [**Flyweight**](structural-patterns/flyweight) [:book:](structural-patterns/flyweight/README.md) [:computer:](structural-patterns/flyweight/flyweight.cpp)
+ - [**Proxy**](structural-patterns/proxy) [:book:](structural-patterns/proxy/README.md) [:computer:](structural-patterns/proxy/proxy.cpp)
 
 Behavioral
 ----------
@@ -46,14 +46,14 @@ Behavioral patterns are concerned with **algorithms and assignement of responsab
 On class, they use inheritance to distribute behaviour between classes while they use object composition to perform tasks that no single object can carry by itself.
 
  - [**Chain Of Responsibility**](creational-patterns/chain-of-responsability) [:book:](creational-patterns/chain-of-responsability/README.md) [:computer:](creational-patterns/chain-of-responsability/chain-of-responsability.cpp)
- - [**Command**](creational-patterns/command) [:book:](creational-patterns/command/README.md) [:computer:](creational-patterns/command/command.cpp)
- - [**Interpreter**](creational-patterns/interpreter) [:book:](creational-patterns/interpreter/README.md) [:computer:](creational-patterns/interpreter/interpreter.cpp)
- - [**Iterator**](creational-patterns/iterator) [:book:](creational-patterns/iterator/README.md) [:computer:](creational-patterns/iterator/iterator.cpp)
- - [**Mediator**](creational-patterns/mediator) [:book:](creational-patterns/mediator/README.md) [:computer:](creational-patterns/mediator/mediator.cpp)
- - [**Momento**](creational-patterns/momento) [:book:](creational-patterns/momento/README.md) [:computer:](creational-patterns/momento/momento.cpp)
- - [**Observer**](creational-patterns/observer) [:book:](creational-patterns/observer/README.md) [:computer:](creational-patterns/observer/observer.cpp)
- - [**State**](creational-patterns/state) [:book:](creational-patterns/state/README.md) [:computer:](creational-patterns/state/state.cpp)
- - [**Strategy**](creational-patterns/strategy) [:book:](creational-patterns/strategy/README.md) [:computer:](creational-patterns/strategy/strategy.cpp)
- - [**Template Method**](creational-patterns/template-method) [:book:](creational-patterns/template-method/README.md) [:computer:](creational-patterns/template-method/template-method.cpp)
- - [**Visitor**](creational-patterns/visitor) [:book:](creational-patterns/visitor/README.md) [:computer:](creational-patterns/visitor/visitor.cpp)
+ - [**Command**](behavioral-patterns/command) [:book:](behavioral-patterns/command/README.md) [:computer:](behavioral-patterns/command/command.cpp)
+ - [**Interpreter**](behavioral-patterns/interpreter) [:book:](behavioral-patterns/interpreter/README.md) [:computer:](behavioral-patterns/interpreter/interpreter.cpp)
+ - [**Iterator**](behavioral-patterns/iterator) [:book:](behavioral-patterns/iterator/README.md) [:computer:](behavioral-patterns/iterator/iterator.cpp)
+ - [**Mediator**](behavioral-patterns/mediator) [:book:](behavioral-patterns/mediator/README.md) [:computer:](behavioral-patterns/mediator/mediator.cpp)
+ - [**Momento**](behavioral-patterns/momento) [:book:](behavioral-patterns/momento/README.md) [:computer:](behavioral-patterns/momento/momento.cpp)
+ - [**Observer**](behavioral-patterns/observer) [:book:](behavioral-patterns/observer/README.md) [:computer:](behavioral-patterns/observer/observer.cpp)
+ - [**State**](behavioral-patterns/state) [:book:](behavioral-patterns/state/README.md) [:computer:](behavioral-patterns/state/state.cpp)
+ - [**Strategy**](behavioral-patterns/strategy) [:book:](behavioral-patterns/strategy/README.md) [:computer:](behavioral-patterns/strategy/strategy.cpp)
+ - [**Template Method**](behavioral-patterns/template-method) [:book:](behavioral-patterns/template-method/README.md) [:computer:](behavioral-patterns/template-method/template-method.cpp)
+ - [**Visitor**](behavioral-patterns/visitor) [:book:](behavioral-patterns/visitor/README.md) [:computer:](behavioral-patterns/visitor/visitor.cpp)
  
