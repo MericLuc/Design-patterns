@@ -12,7 +12,7 @@ In the end, the client knows about the abstract class but not the concrete subcl
 
 # How it's done
 
-![UML](https://en.wikipedia.org/wiki/Factory_method_pattern#/media/File:W3sDesign_Factory_Method_Design_Pattern_UML.jpg)
+![UML](UML.jpg)
 
 **Participants**
  - _Product_ Interface for the objects the _Factory method_ can create.
