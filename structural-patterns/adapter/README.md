@@ -53,7 +53,9 @@ Note : UML class diagram taken from [**here**](https://upload.wikimedia.org/wiki
 
 **Did you know?** 
 
-In the STL, stack, queue and priority_queue are _Adaptors_ from deque and vector. So when you call ```cplusplus stack::push()``` the underlying vector does ```cplusplus vector::push_back()```
+In the STL, stack, queue and priority_queue are _Adaptors_ from deque and vector. So when you call ```stack::push()``` the underlying vector does ```vector::push_back()```
+
+**Ressources**
 
  - An interesting article on _Adapters_ in modern c++ [**here**](https://dzone.com/articles/adapter-design-pattern-in-modern-c)
  - A clear example on [**Refactoring guru**](https://refactoring.guru/design-patterns/adapter)
