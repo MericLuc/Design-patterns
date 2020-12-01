@@ -27,11 +27,11 @@ You should use this pattern in the following cases :
 **How to implement**
 
 You should implement the _Abstract factory_ pattern following these steps :
- 1 - __Define a matrix__ of your products families (products families \* products type)
- 2 - __Declare an abstract interface__ (_AbstractProduct_) for every product types. All the _ConcreteProduct_ classes have to implement these interfaces.
- 3 - __Declare an abstract factory interface__ (_AbstractInterface_) with the required methods to create every abstract product.
- 4 - __Implement the corresponding concrete factory classes__ (_ConcreteFactory_) for each product variant. They will create the Products with the help of _ConcreteProduct_.
- 5 - __Initialize the factories__ and make it accessible to every classes that construct the products (_Client_).
+ 1. __Define a matrix__ of your products families (products families \* products type)
+ 2. __Declare an abstract interface__ (_AbstractProduct_) for every product types. All the _ConcreteProduct_ classes have to implement these interfaces.
+ 3. __Declare an abstract factory interface__ (_AbstractInterface_) with the required methods to create every abstract product.
+ 4. __Implement the corresponding concrete factory classes__ (_ConcreteFactory_) for each product variant. They will create the Products with the help of _ConcreteProduct_.
+ 5. __Initialize the factories__ and make it accessible to every classes that construct the products (_Client_).
 
 NB : You can implement the factories as [_Singleton_](../singleton/README.md). Indeed, your application will likely need only one instance of  _ConcreteFactory_ per product family.
 
