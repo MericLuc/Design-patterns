@@ -16,7 +16,7 @@ class Singleton
     // Private methods
     private :
          Singleton() : m_id(0) {} /*!< Cstr */
-        ~Singleton() {} /*!< Dstr */
+        ~Singleton() {}           /*!< Dstr */
 
          Singleton(const Singleton&)            = delete; /*!< Cpy cstrc  */
          Singleton(Singleton&&)                 = delete; /*!< Mve cstrc  */
