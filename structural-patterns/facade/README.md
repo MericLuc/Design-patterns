@@ -24,7 +24,7 @@ You should use the _Facade_ pattern in the following cases :
    - Do the work assigned by the _Facade_ object.
    - **Have no knowlegde about the _Facade_** - They do not keep any reference to it.
 
-Note : A _Facade_ object can often be implemented as a [**_Singleton_**](../singleton/README.md) since only 1 is needed in most cases.
+Note : A _Facade_ object can often be implemented as a [**_Singleton_**](../../creational-patterns/singleton/README.md) since only 1 is needed in most cases.
 
 **How to implement**
 
