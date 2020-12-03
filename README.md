@@ -52,6 +52,7 @@ On class, they use inheritance to distribute behaviour between classes while the
  - [**Mediator**](behavioral-patterns/mediator) [:book:](behavioral-patterns/mediator/README.md) [:computer:](behavioral-patterns/mediator/mediator.cpp)
  - [**Momento**](behavioral-patterns/momento) [:book:](behavioral-patterns/momento/README.md) [:computer:](behavioral-patterns/momento/momento.cpp)
  - [**Observer**](behavioral-patterns/observer) [:book:](behavioral-patterns/observer/README.md) [:computer:](behavioral-patterns/observer/observer.cpp)
+ - [**Specification**](behavioral-patterns/specification-pattern) [:book:](behavioral-patterns/specification-pattern/README.md) [:computer:](behavioral-patterns/specification-pattern/specification-pattern.cpp)
  - [**State**](behavioral-patterns/state) [:book:](behavioral-patterns/state/README.md) [:computer:](behavioral-patterns/state/state.cpp)
  - [**Strategy**](behavioral-patterns/strategy) [:book:](behavioral-patterns/strategy/README.md) [:computer:](behavioral-patterns/strategy/strategy.cpp)
  - [**Template Method**](behavioral-patterns/template-method) [:book:](behavioral-patterns/template-method/README.md) [:computer:](behavioral-patterns/template-method/template-method.cpp)
