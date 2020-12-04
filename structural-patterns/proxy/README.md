@@ -72,11 +72,11 @@ Note : UML class diagram taken from [**here**](https://upload.wikimedia.org/wiki
 
   - [_Smart pointers_](https://en.cppreference.com/w/cpp/memory) from the standard library is an example of the _Proxy_ design pattern.
   Indeed, consider the following code snippet :
-  ```
-  aPointer->aFunction();
-  *aPointer = aValue;
-  ```
-    - There is no way you can know whether _aPointer_ is a raw pointer or a smart pointer.
+    ```
+    aPointer->aFunction();
+    *aPointer = aValue;
+    ```
+    - There is no way you can know whether `aPointer` is a raw pointer or a smart pointer.
     - That is because _smart pointers_ provide an interface to access an underlying raw pointer that looks just like the interface of a raw pointer.
 
 **Ressources**
