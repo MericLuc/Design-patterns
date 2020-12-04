@@ -6,7 +6,7 @@ Also known as **Surrogate**.
 
 The ressource may be **remote**, **expensive to construct** or **require any kind of additional functionality** (such a logging for example).
 
-Note : **The interface provided by the _Proxy_ should look exactly the same as the _Object_**.
+Note : **The interface provided by the _Proxy_ should look exactly the same as the _Object_**. (Well, it can provide additional enhancements, but it has to implement the _object_ interface.)
 
 Note : There are many different types of _Proxy_ :
   - Virtual proxy
@@ -76,7 +76,7 @@ Note : UML class diagram taken from [**here**](https://upload.wikimedia.org/wiki
   aPointer->aFunction();
   *aPointer = aValue;
   ```
-    - There is no way you can know whether ```aPointer``` is a raw pointer or a smart pointer.
+    - There is no way you can know whether _aPointer_ is a raw pointer or a smart pointer.
     - That is because _smart pointers_ provide an interface to access an underlying raw pointer that looks just like the interface of a raw pointer.
 
 **Ressources**
