@@ -74,6 +74,7 @@ Note : UML class diagram taken from [**here**](https://upload.wikimedia.org/wiki
   Indeed, consider the following code snippet :
   ``
   aPointer->aFunction();
+  
   *aPointer = aValue;
   ``
     - There is no way you can know whether ``aPointer`` is a raw pointer or a smart pointer.
