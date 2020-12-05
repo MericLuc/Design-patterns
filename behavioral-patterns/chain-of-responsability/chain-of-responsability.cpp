@@ -53,7 +53,10 @@ public:
 
     virtual ~PhotoProcessor() = default;
 
-    void setNext(PhotoProcessor* p_next) { m_next = p_next; }
+    void setNext(PhotoProcessor* p_next) { 
+        if ( m_next ) { m_next->setNext(p_next); }
+        else          { m_next = p_next;         }
+    }
 
 protected:
     virtual void handleImpl(Photo &p) = 0;
@@ -144,16 +147,16 @@ void processPhoto( Photo& photo )
     Filter          filter;
     PriorityChecker prioCheck(HIGH_PRIO);
 
-    // Build the chain of command
+    // Build the chain of responsability
     // i.e. the order of the operations
-    Scale scale(S200);
-    scale    .setNext(&prioCheck);
-    prioCheck.setNext(&eye);
-    eye      .setNext(&match);
-    match    .setNext(&filter);
+    Scale CoR(S200);
+    CoR.setNext (&prioCheck);
+    CoR.setNext (&eye      );
+    CoR.setNext (&match    );
+    CoR.setNext (&filter   );
 
     // Perform the operations
-    scale    .handle(photo);
+    CoR.handle(photo);
 }
 
 int main()
