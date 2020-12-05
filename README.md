@@ -45,7 +45,7 @@ Behavioral patterns are concerned with **algorithms and assignement of responsab
 
 On class, they use inheritance to distribute behaviour between classes while they use object composition to perform tasks that no single object can carry by itself.
 
- - [**Chain Of Responsibility**](creational-patterns/chain-of-responsability) [:book:](creational-patterns/chain-of-responsability/README.md) [:computer:](creational-patterns/chain-of-responsability/chain-of-responsability.cpp)
+ - [**Chain Of Responsibility**](behavioral-patterns/chain-of-responsability) [:book:](behavioral-patterns/chain-of-responsability/README.md) [:computer:](behavioral-patterns/chain-of-responsability/chain-of-responsability.cpp)
  - [**Command**](behavioral-patterns/command) [:book:](behavioral-patterns/command/README.md) [:computer:](behavioral-patterns/command/command.cpp)
  - [**Interpreter**](behavioral-patterns/interpreter) [:book:](behavioral-patterns/interpreter/README.md) [:computer:](behavioral-patterns/interpreter/interpreter.cpp)
  - [**Iterator**](behavioral-patterns/iterator) [:book:](behavioral-patterns/iterator/README.md) [:computer:](behavioral-patterns/iterator/iterator.cpp)
