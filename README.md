@@ -1,4 +1,4 @@
-# Design-patterns
+# Design-patterns ![Language](https://img.shields.io/badge/language-C++14-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
 This repository contains a list of **common Design patterns** and their **_c++ implementation_**.
 
