@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/dev/VS-projects/Mediator/ChatRoom.cpp
+person.hpp
+E:/dev/VS-projects/Mediator/Person.hpp
+ChatRoom.hpp
+E:/dev/VS-projects/Mediator/ChatRoom.hpp
+algorithm
+-
+
+E:/dev/VS-projects/Mediator/ChatRoom.hpp
+memory
+-
+vector
+-
+
+E:/dev/VS-projects/Mediator/Person.hpp
+string
+-
+vector
+-
+
