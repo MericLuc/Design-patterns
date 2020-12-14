@@ -1,3 +1,0 @@
-E:/dev/VS-projects/Mediator/build/CMakeFiles/Mediator.dir
-E:/dev/VS-projects/Mediator/build/CMakeFiles/edit_cache.dir
-E:/dev/VS-projects/Mediator/build/CMakeFiles/rebuild_cache.dir

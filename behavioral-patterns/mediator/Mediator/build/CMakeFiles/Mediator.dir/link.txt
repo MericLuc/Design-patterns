@@ -1,3 +1,0 @@
-C:\CMake\bin\cmake.exe -E rm -f CMakeFiles\Mediator.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Mediator.dir/objects.a @CMakeFiles\Mediator.dir\objects1.rsp
-C:\MinGW\bin\g++.exe  -std=c++17 -g -Wl,--whole-archive CMakeFiles\Mediator.dir/objects.a -Wl,--no-whole-archive -o Mediator.exe -Wl,--out-implib,libMediator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Mediator.dir\linklibs.rsp
