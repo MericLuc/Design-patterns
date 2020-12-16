@@ -18,7 +18,8 @@
  *        In that case, he is also storing and managing its Mementos but
  *        in a real-life example, this should be delegated to a CareTaker.
  * 
- *        Also note that in this example, there is absolutely no lifecycle *        management for Mementos and their history can grow indefinetly.
+ *        Also note that in this example, there is absolutely no lifecycle 
+ *        management for Mementos and their history can grow indefinetly.
  */
 class BankAccount
 {
