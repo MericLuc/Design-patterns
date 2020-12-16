@@ -50,7 +50,7 @@ On class, they use inheritance to distribute behaviour between classes while the
  - [**Interpreter**](behavioral-patterns/interpreter) [:book:](behavioral-patterns/interpreter/README.md) [:computer:](behavioral-patterns/interpreter/interpreter.cpp)
  - [**Iterator**](behavioral-patterns/iterator) [:book:](behavioral-patterns/iterator/README.md) [:computer:](behavioral-patterns/iterator/iterator.cpp)
  - [**Mediator**](behavioral-patterns/mediator) [:book:](behavioral-patterns/mediator/README.md) [:computer:](behavioral-patterns/mediator/Mediator/main.cpp)
- - [**Momento**](behavioral-patterns/momento) [:book:](behavioral-patterns/momento/README.md) [:computer:](behavioral-patterns/momento/momento.cpp)
+ - [**Memento**](behavioral-patterns/memento) [:book:](behavioral-patterns/memento/README.md) [:computer:](behavioral-patterns/memento/memento.cpp)
  - [**Observer**](behavioral-patterns/observer) [:book:](behavioral-patterns/observer/README.md) [:computer:](behavioral-patterns/observer/observer.cpp)
  - [**Specification**](behavioral-patterns/specification-pattern) [:book:](behavioral-patterns/specification-pattern/README.md) [:computer:](behavioral-patterns/specification-pattern/specification-pattern.cpp)
  - [**State**](behavioral-patterns/state) [:book:](behavioral-patterns/state/README.md) [:computer:](behavioral-patterns/state/state.cpp)
