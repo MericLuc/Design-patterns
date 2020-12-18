@@ -16,11 +16,13 @@ You should use the _State_ pattern in the following cases :
 
 **Participants**
 
- -_Context_
-  - Interface of interest to clients.
-  - Maintains an instance of a _ConcreteState_ subclass that defines the current state and its behaviour.
- - _State_ Interface for the behaviour associated with a particular state of the _Context_.
- - _ConcreteStates_ implement a behaviour associated with a state of the _Context_.
+ - _Context_
+   - Interface of interest to clients.
+   - Maintains an instance of a _ConcreteState_ subclass that defines the current state and its behaviour.
+ - _State_ 
+   - Interface for the behaviour associated with a particular state of the _Context_.
+ - _ConcreteStates_ 
+   - Implement a behaviour associated with a state of the _Context_.
 
 **How to implement**
 
